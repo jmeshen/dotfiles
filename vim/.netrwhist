@@ -1,0 +1,8 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =6
+let g:netrw_dirhist_1='/Users/jmeshen'
+let g:netrw_dirhist_2='/Users/jmeshen/Dropbox'
+let g:netrw_dirhist_3='/Users/jmeshen/Dropbox/Web & Design'
+let g:netrw_dirhist_4='/Users/jmeshen/exercism/ruby/hamming'
+let g:netrw_dirhist_5='/Users/jmeshen/.zprezto'
+let g:netrw_dirhist_6='/Users/jmeshen/.git'

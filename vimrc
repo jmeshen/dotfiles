@@ -1,4 +1,5 @@
 syntax enable
+filetype plugin on
 set nocp
 set number
 set t_Co=256
@@ -10,6 +11,7 @@ set tabstop=2
 set smarttab
 set ruler
 set autoindent
+set smartindent
 
 " highlight and increment search
 set hls is
@@ -26,12 +28,12 @@ set directory=.,./.backup,/tmp
 map <C-c> "+y<CR>
 
 " Ctrl-P
-set runtimepath^=~/.vim/bundle/ctrlp.vim	
+" set runtimepath^=~/.vim/bundle/ctrlp.vim	
 let g:ctrlp_map = '<c-p>'
 let g:ctrlp_cmd = 'CtrlP'
 
-" NERDTree
 execute pathogen#infect()
+" NERDTree
 " autocmd vimenter * NERDTree		
 map <C-n> :NERDTreeToggle<CR>							
 
